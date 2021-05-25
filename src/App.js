@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Car from './components/Car'
+import Truck from './components/Truck'
 
 function App() {
+  const cars = ['Mercedes', 'Tesla', 'Toyota'];
+  const trucks = ['Hummer', 'Ford F150', 'Silverado'];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Car cars={cars}/>
+      <Truck />
     </div>
   );
 }
