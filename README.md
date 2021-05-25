@@ -49,6 +49,8 @@ export default Truck;
 
 ### `4` `Car` Class Component
 ```jsx
+import React, { Component } from 'react';
+
 class Car extends Component {
     render() {
         return (
@@ -64,6 +66,8 @@ export default Car;
 
 ### `5` `Truck` Class Component
 ```jsx
+import React, { Component } from 'react';
+
 class Truck extends Component {
     render() {
         return (
@@ -102,6 +106,8 @@ export default App;
 
 ## `2` `Car` Class Component w/ Props
 ```jsx
+import React, { Component } from 'react';
+
 class Car extends Component {
     render() {
         console.log(this.props.cars);
@@ -144,6 +150,8 @@ export default Car;
 
 ## `4` `Truck` Class Component w/ Props
 ```jsx
+import React, { Component } from 'react';
+
 class Truck extends Component {
     render() {
         console.log(this.props.trucks);
